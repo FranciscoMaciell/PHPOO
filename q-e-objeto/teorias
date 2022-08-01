@@ -1,0 +1,81 @@
+/* ----- O que é OBJETO? ----- */
+
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meios das suas características, comportamentos e estado atual.
+
+
+/* ----- CLASSE ----- */
+
+Uma classe deve responder sempre a três perguntas:
+
+*Coisas que o objeto tem?(São os atributos)
+
+*Coisas que o objeto faz?(São os metodos)
+
+*Como o objeto está agora?(É o estado do objeto)
+
+
+/* ----- Todo objeto vem apartir de uma classe(de um mode) ----- */
+
+
+/* ----- EXEMPLO DE OBJETO(idealizando objeto caneta) ----- */
+
+*Atributos:
+    Modelo - Bic cristal
+    Cor - Azul
+    Ponta - 0.5
+    Carga - 90
+    Tampada - false
+
+*Métodos:
+    Escrever
+    Rabiscar
+    Pintar
+    Tampar
+    Destampar
+
+*Estado:
+    Destampada
+    Azul
+    90% da carga
+    ...
+
+/* ----- INSTANCIAR ----- */
+
+É a geração de um objeto apartir de uma classe.
+
+Ex: C1=nova Caneta
+    C1.cor="Azul"
+    C1.ponta=0.5
+    C1.tampada=false
+    C1.rabiscar()
+
+    C2=nova Caneta
+    C2.cor=vermelho
+    C2.ponta=1.0
+    C2.tampada=false
+    C2.tampar()
+
+/* ----- DEFINIÇÕES OFICIAIS(CLASSE E OBJETO) ----- */
+
+*CLASSE - Define os atributos e metodos comuns compartilhados por um objeto.
+
+*OBJETO - É a instância de uma classe.
+
+
+/* ----- MODIFICADORES DE VISIBILIDADE ----- */
+
+Indicam o nivel de acesso aos componentes internos(atributos e metodos) de classe.
+
+(+) - indica publico
+    A classe atual e todas as outras classes podem ter acesso a ela
+
+(-) - indica privado
+    Somente a classe atual vai ter acesso a ela
+
+(#) - indica protegido
+    Dá acesso a classe atual e todas as suas sub-classes(A minha mãe e os filhos dela).
+
+
+
+
+
