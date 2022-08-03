@@ -94,5 +94,19 @@ Vantagens em encapsular:
 * POLIMORFISMO -
 
 
+/* ----- RELACIONAMENTO ENTRE CLASSES ----- */
 
+CLASS LUTADOR{
+    --- ATRIBUTOS ---
+    NOME
+    NACIONALIDADE
+    IDADE
+    PESO 
+    CATEGORIA
+    VITORIAS
+    DERROTAS 
+    EMPATES
+
+    --- METODOS ---
+}
 

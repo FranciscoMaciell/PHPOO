@@ -1,5 +1,6 @@
 <?php
-    class Control{
+    require_once 'Controlador.php';
+    class Control implements Controlador{
         private $vol;
         private $lig;
         private $toc;
@@ -51,9 +52,17 @@
         }
 
         function Menu(){
-            echo $this->get_lig()."<br>";
-            echo $this->get_vol()."<br>";
-            echo $this->get_toc()."<br>";
+            echo "<br>Está ligado? ".($this->get_lig()?"Sim":"Não");
+            echo "<br>Estado do vol: ".$this->get_vol();
+            echo "<br>Está tocando? ".($this->get_toc()?"Sim":"Não");
+            echo "<br>";
+            for($i=0; $i<$this->get_vol(); $i+=10){
+                echo '-';
+            }
+        }
+
+        function fecharMenu(){
+            echo "<br>Fechando Menu...";
         }
 
         function maisVol(){
@@ -64,7 +73,7 @@
                     $this->set_vol($this->get_vol()+5);
                 }
 
-                for($i=0; $i<$this->get_vol(); $i++){
+                for($i=0; $i<$this->get_vol(); $i+=10){
                     echo '-';
                 }
             }else{
@@ -80,7 +89,7 @@
                     $this->set_vol($this->get_vol()-5);
                 }
 
-                for($i=0; $i<$this->get_vol(); $i++){
+                for($i=0; $i<$this->get_vol(); $i+=10){
                     echo '-';
                 }
             }else{
