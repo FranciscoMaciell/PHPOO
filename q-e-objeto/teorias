@@ -76,6 +76,23 @@ Indicam o nivel de acesso aos componentes internos(atributos e metodos) de class
     Dá acesso a classe atual e todas as suas sub-classes(A minha mãe e os filhos dela).
 
 
+/* ----- PILARES DO POO ----- */
+
+* Abstração -
+
+* --- ENCAPSULAMENTO --- Ocultar partes independentes da implementação, permitindo construir partes invisiveis ao mundo exterior. (Encapsular não é obrigatório, mas é uma boa prática para produzir CLASSES mais eficientes).
+
+Vantagens em encapsular: 
+1 - Tornar mudanças invisíveis.
+
+2 - Facilitar a reutilização do codigo.
+
+3 - Reduzir efeitos colaterais.
+
+* --- HERANÇA --- 
+
+* POLIMORFISMO -
+
 
 
 
