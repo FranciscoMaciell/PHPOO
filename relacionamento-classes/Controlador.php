@@ -1,5 +1,5 @@
 <?php
-    interface Lutas{
+    interface Luta{
         public function apresentar();
         public function status();
         public function ganharLuta();

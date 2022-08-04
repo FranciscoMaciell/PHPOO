@@ -1,6 +1,6 @@
 <?php
     require_once 'Controlador.php';
-    class Lutador implements Lutas{
+    class Lutador implements Luta{
         private $nome;
         private $nacionalidade;
         private $idade;
