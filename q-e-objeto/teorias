@@ -91,6 +91,16 @@ Vantagens em encapsular:
 
 * --- HERANÇA --- Permiti basear uma nova classe na definição de uma outra classe previamente existente.
 
+--- TIPOS DE HERANÇA --- 
+
+CLASSE ABSTRATA - Não pode ser instanciada. So pode servir como progenitora.
+
+METODO ABSTRATO - Metodo declarado, mas não implementado na progenitora.
+
+CLASSE FINAL - Não pode ser herdada por outra classe. Obrigatoriamente folha(Não pode ter filhos).
+
+METODO FINAL - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+
 * POLIMORFISMO -
 
 
