@@ -5,7 +5,7 @@
         private $matricula, $curso;
 
         function pagarMensalidade(){
-            echo "Pagando mensalidade do aluno ". $this->get_nome();
+            echo "<br>Pagando mensalidade do aluno ". $this->get_nome();
         }
 
         function get_matr(){
