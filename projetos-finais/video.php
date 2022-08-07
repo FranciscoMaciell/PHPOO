@@ -36,7 +36,8 @@
         }
 
         function set_av($a){
-            $this->avaliação=$a;
+            $media=($this->avaliação+$a)/$this->get_views();
+            $this->avaliação=$media;
         }
 
         function get_views(){

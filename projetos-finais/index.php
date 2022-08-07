@@ -23,9 +23,13 @@
             $V[1]=new Video("Aula 12 de PHP");
             $V[2]=new Video("Aula 15 de HTML5");
 
-            $Vis=new Visual($G[0], $V[1]);
-            $Vis->
+            $Vis=array();
 
+            $Vis[0]=new Visual($G[0], $V[1]);
+            $Vis[1]=new Visual($G[0], $V[0]);
+            $Vis[1]->avaliar();
+            
+            
             print_r($Vis);
         ?>
     </pre>
